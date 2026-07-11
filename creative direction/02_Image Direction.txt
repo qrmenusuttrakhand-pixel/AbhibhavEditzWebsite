@@ -1,0 +1,267 @@
+# IMAGE DIRECTION
+Version 1.0
+
+============================================================
+
+PURPOSE
+
+Images are not decoration.
+
+Images are the emotional connection between the visitor and the brand.
+
+Every image should increase trust.
+
+Every image should help visitors understand who Abhibhav Editz is.
+
+If an image does not improve the user's experience, do not use it.
+
+============================================================
+
+OFFICIAL BRAND ASSETS
+
+Read every image inside:
+
+Portfolio/
+Project 2/
+
+These AI-generated portraits are the official visual identity of Abhibhav Editz.
+
+Never replace them with stock photos.
+
+Never generate placeholder portraits.
+
+Always prefer the provided images.
+
+============================================================
+
+IMAGE DISTRIBUTION
+
+Do not place every image in one section.
+
+Distribute them strategically throughout the website.
+
+Suggested layout:
+
+Image 1
+Hero Section
+
+Image 2
+About Abhibhav
+
+Image 3
+Creative Philosophy
+
+Image 4
+Services Introduction
+
+Image 5
+Portfolio Introduction
+
+Image 6
+Contact Section
+
+Each image should appear only where it adds meaning.
+
+============================================================
+
+IMAGE PRESENTATION
+
+Never aggressively crop the face.
+
+Preserve the entire hairstyle.
+
+Maintain facial identity.
+
+Preserve facial proportions.
+
+Avoid stretching.
+
+Maintain original aspect ratio.
+
+Allow breathing room around the subject.
+
+Images should feel premium.
+
+============================================================
+
+EDITORIAL STYLE
+
+Present images like an editorial magazine.
+
+Behance featured project quality.
+
+Pinterest creative portfolio quality.
+
+Apple presentation simplicity.
+
+Use large whitespace.
+
+Minimal borders.
+
+Soft rounded corners where appropriate.
+
+Natural composition.
+
+============================================================
+
+LAYOUT
+
+Some images should appear:
+
+• Full width
+
+Some should appear:
+
+• Half width
+
+Some should slightly overlap surrounding whitespace.
+
+Some should float beside typography.
+
+Avoid repetitive layouts.
+
+Every section should feel unique.
+
+============================================================
+
+SHADOWS
+
+Soft shadows only.
+
+Natural daylight shadows.
+
+No heavy drop shadows.
+
+No neon glow.
+
+No unrealistic lighting.
+
+============================================================
+
+COLOR
+
+Never oversaturate.
+
+Maintain warm neutral colors.
+
+Soft contrast.
+
+Editorial color grading.
+
+Natural skin tones.
+
+============================================================
+
+ANIMATION
+
+Images should never pop into view.
+
+Use subtle fade.
+
+Small upward movement.
+
+Very gentle scale.
+
+Duration between 500ms and 900ms.
+
+Smooth easing.
+
+Animations should never distract.
+
+============================================================
+
+HOVER EFFECTS
+
+Hover interactions should feel premium.
+
+Small scale.
+
+Tiny shadow increase.
+
+Smooth transition.
+
+No dramatic zoom.
+
+No rotation.
+
+============================================================
+
+RESPONSIVE DESIGN
+
+Images should resize beautifully.
+
+Never crop important facial features.
+
+Maintain quality across:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+============================================================
+
+WHAT TO AVOID
+
+Never use placeholder people.
+
+Never duplicate the same image unnecessarily.
+
+Never repeat the same composition.
+
+Never crop eyes.
+
+Never crop hair.
+
+Never distort proportions.
+
+Never use cheap-looking frames.
+
+Never overload the page with images.
+
+============================================================
+
+IMAGE STORYTELLING
+
+Every image should communicate a different part of the journey.
+
+Hero
+Confidence
+
+About
+Personality
+
+Creative Philosophy
+Passion
+
+Services
+Professionalism
+
+Portfolio
+Capability
+
+Contact
+Approachability
+
+Visitors should slowly feel like they know the person behind the studio.
+
+============================================================
+
+FINAL PRINCIPLE
+
+Images should never exist simply because they look good.
+
+Every image must help build trust.
+
+The visitor should feel:
+
+"I know this person."
+
+"I trust this person."
+
+"I want to work with this person."
+
+If an image cannot achieve this purpose, redesign its placement or remove it.

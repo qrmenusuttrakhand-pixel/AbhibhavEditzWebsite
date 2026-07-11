@@ -1,0 +1,352 @@
+# EDITORIAL COMPOSITION
+Version 1.0
+
+============================================================
+
+PURPOSE
+
+This website should never feel like images have been placed onto a webpage.
+
+Instead, every portrait should become part of the page itself.
+
+Images are editorial design elements.
+
+Not photographs.
+
+Not cards.
+
+Not gallery items.
+
+============================================================
+
+DESIGN PHILOSOPHY
+
+Think like an Editorial Art Director.
+
+Not a Web Designer.
+
+Think like:
+
+Apple
+
+Aesop
+
+Kinfolk Magazine
+
+Behance Featured Projects
+
+Pinterest Editorial Design
+
+Luxury Fashion Campaigns
+
+Magazine Covers
+
+Creative Agency Websites
+
+Every composition should feel handcrafted.
+
+============================================================
+
+IMAGE TREATMENT
+
+Portraits should blend naturally into the layout.
+
+Images should never feel trapped inside rectangles.
+
+Avoid obvious image containers.
+
+Avoid standard cards.
+
+Avoid galleries.
+
+Avoid boxed layouts.
+
+The page should flow naturally around the portraits.
+
+============================================================
+
+PORTRAIT COMPOSITION
+
+Portraits should be allowed to:
+
+Extend beyond sections.
+
+Break the grid.
+
+Overlap typography.
+
+Fade into the background.
+
+Become part of the whitespace.
+
+Sometimes only show:
+
+Half of the portrait.
+
+Only the face.
+
+Only the upper body.
+
+Only the eyes.
+
+Only the shoulder.
+
+Only the silhouette.
+
+Only the hands.
+
+Never crop randomly.
+
+Every crop should improve composition.
+
+============================================================
+
+MASKING
+
+Portrait edges should never end abruptly.
+
+Blend edges naturally.
+
+Use:
+
+Gradient masks.
+
+Soft feathering.
+
+Opacity transitions.
+
+Editorial fades.
+
+Natural cutouts.
+
+Images should disappear into the page instead of ending with hard borders.
+
+============================================================
+
+NEGATIVE SPACE
+
+Whitespace is part of the composition.
+
+Never fill every empty area.
+
+Portraits should create balance.
+
+Allow breathing room.
+
+Luxury comes from restraint.
+
+============================================================
+
+TYPOGRAPHY RELATIONSHIP
+
+Typography should interact with portraits.
+
+Examples:
+
+Headlines partially overlap portraits.
+
+Portraits slightly overlap typography.
+
+Letters disappear behind the subject.
+
+Portraits emerge from behind large editorial text.
+
+Never let images fight against typography.
+
+Typography remains readable.
+
+============================================================
+
+LAYERING
+
+The page should feel layered.
+
+Background
+
+↓
+
+Paper texture
+
+↓
+
+Editorial graphics
+
+↓
+
+Portrait
+
+↓
+
+Typography
+
+↓
+
+Interactive elements
+
+Everything should feel intentional.
+
+============================================================
+
+DEPTH
+
+Use subtle depth.
+
+Not dramatic 3D.
+
+Portraits should cast soft natural shadows.
+
+Create visual hierarchy through scale.
+
+Not effects.
+
+============================================================
+
+EDITORIAL CROPPING
+
+Cropping is encouraged.
+
+Only if it improves storytelling.
+
+Never crop:
+
+Eyes awkwardly.
+
+Top of the head.
+
+Jawline.
+
+Hands unintentionally.
+
+Always preserve identity.
+
+============================================================
+
+VISUAL RHYTHM
+
+Avoid repeating the same layout.
+
+Every section should feel unique.
+
+Example:
+
+Hero
+
+Large portrait.
+
+About
+
+Half portrait fading into whitespace.
+
+Services
+
+Portrait behind typography.
+
+Portfolio
+
+Small supporting portrait.
+
+Contact
+
+Welcoming portrait.
+
+No repeated compositions.
+
+============================================================
+
+BACKGROUND INTEGRATION
+
+Portraits should feel connected to the background.
+
+Soft paper textures.
+
+Editorial grain.
+
+Warm light.
+
+Natural gradients.
+
+No harsh cutouts.
+
+============================================================
+
+ANIMATION
+
+Portraits should appear naturally.
+
+Fade.
+
+Small upward movement.
+
+Very gentle scale.
+
+No spinning.
+
+No flipping.
+
+No bouncing.
+
+No dramatic effects.
+
+============================================================
+
+WHAT TO AVOID
+
+Never place portraits inside:
+
+Boxes.
+
+Cards.
+
+Frames.
+
+Perfect rectangles.
+
+Carousels.
+
+Photo galleries.
+
+Avoid looking like:
+
+LinkedIn.
+
+Portfolio templates.
+
+Corporate websites.
+
+Photography galleries.
+
+============================================================
+
+EMOTIONAL GOAL
+
+Visitors should never think:
+
+"Nice image."
+
+Instead they should think:
+
+"This feels like a magazine."
+
+"This feels artistic."
+
+"This feels premium."
+
+"This feels handcrafted."
+
+============================================================
+
+FINAL PRINCIPLE
+
+Portraits are not images.
+
+Portraits are part of the design.
+
+Every portrait should feel woven into the page itself.
+
+If removing the border, allowing overlap, introducing negative space or using a soft mask improves the composition,
+
+choose that solution.
+
+Design the website like an editorial magazine rather than a collection of webpages.
+
+The final experience should feel timeless, cinematic and deeply human.

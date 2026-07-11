@@ -1,0 +1,374 @@
+# MOBILE DIRECTION
+Version 1.0
+
+============================================================
+
+PURPOSE
+
+The mobile experience is not a smaller version of the desktop website.
+
+For many visitors, it is the first and only experience.
+
+Design mobile first.
+
+Desktop should be an enhancement.
+
+============================================================
+
+PRIMARY GOAL
+
+Within the first five seconds the visitor should:
+
+Understand who Abhibhav Editz is.
+
+Feel something different.
+
+Know exactly where to go next.
+
+The mobile experience should never feel crowded.
+
+============================================================
+
+OVERALL EXPERIENCE
+
+The website should feel:
+
+Warm
+
+Fast
+
+Minimal
+
+Comfortable
+
+Premium
+
+Personal
+
+Creative
+
+Human
+
+Scrolling should feel effortless.
+
+Everything should be thumb-friendly.
+
+============================================================
+
+PERFORMANCE
+
+Performance is the highest priority.
+
+Optimize every image.
+
+Lazy load videos.
+
+Compress assets.
+
+Avoid unnecessary JavaScript.
+
+Avoid heavy libraries.
+
+Keep interactions smooth even on lower-end Android devices.
+
+Target:
+
+Fast First Contentful Paint.
+
+Fast Largest Contentful Paint.
+
+Minimal layout shift.
+
+============================================================
+
+LAYOUT
+
+Single-column layout.
+
+Generous spacing.
+
+Readable typography.
+
+Large touch targets.
+
+Comfortable margins.
+
+Avoid tiny buttons.
+
+Avoid crowded cards.
+
+============================================================
+
+NAVIGATION
+
+Simple.
+
+Sticky navigation.
+
+Clear menu.
+
+Easy access to:
+
+Portfolio
+
+Services
+
+Pricing
+
+Contact
+
+Navigation should never cover important content.
+
+============================================================
+
+TYPOGRAPHY
+
+Large readable headings.
+
+Comfortable line spacing.
+
+Readable paragraph width.
+
+Never make users zoom.
+
+Maintain excellent contrast.
+
+============================================================
+
+BUTTONS
+
+Buttons should be large enough for thumbs.
+
+Minimum height:
+
+48px
+
+Rounded corners.
+
+Clear labels.
+
+Examples:
+
+View Work
+
+Watch Reel
+
+Let's Talk
+
+Book a Call
+
+WhatsApp Me
+
+============================================================
+
+IMAGES
+
+Use responsive images.
+
+Preserve facial identity.
+
+Never crop important features.
+
+Avoid aggressive zooming.
+
+Images should resize naturally.
+
+Maintain quality on Retina displays.
+
+============================================================
+
+VIDEOS
+
+Videos should:
+
+Load quickly.
+
+Remain muted.
+
+Support fullscreen.
+
+Maintain aspect ratio.
+
+Pause automatically when off-screen.
+
+Avoid multiple simultaneous video playback.
+
+============================================================
+
+SCROLL EXPERIENCE
+
+Smooth.
+
+Natural.
+
+Consistent.
+
+Sections should appear with subtle animations.
+
+No jarring transitions.
+
+No unnecessary horizontal scrolling.
+
+============================================================
+
+FORMS
+
+Minimal fields only.
+
+Name
+
+Email or WhatsApp
+
+Project Description
+
+Avoid long forms.
+
+Reduce friction.
+
+============================================================
+
+WHATSAPP
+
+WhatsApp should be visible but not intrusive.
+
+Floating action button is acceptable.
+
+Never block content.
+
+Never cover buttons.
+
+============================================================
+
+TOUCH INTERACTIONS
+
+Every interactive element should be easy to tap.
+
+Avoid hover-dependent functionality.
+
+Mobile users cannot hover.
+
+Always provide touch alternatives.
+
+============================================================
+
+ANIMATIONS
+
+Reduce animation intensity.
+
+Performance over complexity.
+
+Use opacity and transform only.
+
+Avoid expensive effects.
+
+Respect reduced motion preferences.
+
+============================================================
+
+RESPONSIVE BREAKPOINTS
+
+Mobile
+
+Tablet
+
+Laptop
+
+Desktop
+
+Transitions between breakpoints should feel seamless.
+
+Nothing should break.
+
+Nothing should overlap.
+
+============================================================
+
+CONTENT PRIORITY
+
+Always show:
+
+Hero
+
+Portfolio
+
+Services
+
+Process
+
+Pricing
+
+Contact
+
+Remove unnecessary decorative elements on smaller screens.
+
+============================================================
+
+ACCESSIBILITY
+
+Readable contrast.
+
+Accessible font sizes.
+
+Keyboard compatibility where relevant.
+
+Meaningful alt text.
+
+Clear focus indicators.
+
+============================================================
+
+WHAT TO AVOID
+
+Avoid:
+
+Tiny text
+
+Tiny buttons
+
+Crowded layouts
+
+Horizontal scrolling
+
+Hover-only interactions
+
+Heavy animations
+
+Large videos above the fold
+
+Complex navigation
+
+Hidden important information
+
+============================================================
+
+SUCCESS
+
+The mobile experience succeeds when users can:
+
+Understand the brand immediately.
+
+Watch portfolio videos comfortably.
+
+Navigate naturally.
+
+Contact Abhibhav within seconds.
+
+Never feel lost.
+
+============================================================
+
+FINAL PRINCIPLE
+
+Design for the thumb.
+
+Design for speed.
+
+Design for trust.
+
+The visitor should feel that the mobile website was designed specifically for them—not adapted from the desktop version.
+
+Every tap should feel effortless.
+
+Every scroll should feel intentional.
+
+Every interaction should bring the visitor closer to starting a conversation.

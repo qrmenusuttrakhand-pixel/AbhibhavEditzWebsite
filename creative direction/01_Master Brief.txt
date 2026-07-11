@@ -1,0 +1,366 @@
+# ABHIBHAV EDITZ
+# MASTER CREATIVE BRIEF
+Version 1.0
+
+============================================================
+
+PROJECT OVERVIEW
+
+This is not a freelancer portfolio.
+
+This is the digital home of Abhibhav Editz.
+
+Every page, interaction, animation, image and piece of typography should communicate one message:
+
+"This feels different."
+
+The website should create trust before selling services.
+
+Visitors should feel welcomed instead of being impressed by unnecessary visual effects.
+
+The website is designed to convert visitors into conversations rather than simply showcase work.
+
+============================================================
+
+WHO IS ABHIBHAV EDITZ
+
+Abhibhav Editz is a creative video editing studio focused on transforming raw footage into meaningful visual stories.
+
+The studio believes that editing is more than adding transitions.
+
+Good editing understands people.
+
+Good editing understands brands.
+
+Good editing communicates emotion.
+
+The experience of working together should feel effortless.
+
+Communication, understanding and collaboration are more valuable than flashy effects.
+
+Every project is built around the client's vision instead of forcing one editing style on everyone.
+
+============================================================
+
+MISSION
+
+Help brands, creators and businesses build their own identity through personalized editing, honest communication and cinematic storytelling.
+
+============================================================
+
+VISION
+
+Become one of India's most trusted creative studios where clients remember the experience as much as the final video.
+
+============================================================
+
+TARGET AUDIENCE
+
+The website is built primarily for:
+
+• Personal Brands
+• Gym Owners
+• Influencers
+• Small Businesses
+• Startups
+• Content Creators
+
+The audience is not looking for an editor.
+
+They are looking for someone they can trust.
+
+============================================================
+
+EMOTIONAL EXPERIENCE
+
+The website should feel:
+
+Warm
+
+Comfortable
+
+Calm
+
+Premium
+
+Creative
+
+Human
+
+Minimal
+
+Personal
+
+Trustworthy
+
+Visitors should feel like they entered a creative studio rather than a business website.
+
+============================================================
+
+DESIGN PHILOSOPHY
+
+Every section must have a reason to exist.
+
+Every animation must improve the experience.
+
+Every image should tell a story.
+
+Every button should feel intentional.
+
+Nothing should exist purely for decoration.
+
+Whitespace is part of the design.
+
+Simplicity is a feature.
+
+============================================================
+
+VISUAL STYLE
+
+Editorial
+
+Scandinavian
+
+Modern
+
+Minimal
+
+Soft
+
+Premium
+
+Luxury without being expensive
+
+Behance quality
+
+Apple simplicity
+
+Pinterest inspiration
+
+Magazine layouts
+
+Avoid:
+
+RGB lighting
+
+Gaming aesthetics
+
+Cyberpunk
+
+Heavy gradients
+
+Visual clutter
+
+Glassmorphism everywhere
+
+Overly complex 3D
+
+============================================================
+
+COLOR DIRECTION
+
+Warm Ivory
+
+Cream
+
+Soft White
+
+Charcoal
+
+Matte Black
+
+Muted Terracotta
+
+Muted Deep Red accents
+
+The colors should create warmth instead of cold technology.
+
+============================================================
+
+TYPOGRAPHY
+
+Large editorial headings.
+
+Elegant spacing.
+
+Minimal body text.
+
+Readable hierarchy.
+
+Typography should become part of the design rather than decoration.
+
+============================================================
+
+PHOTOGRAPHY
+
+Use only the provided AI portraits from Portfolio > Project 2.
+
+These are official brand assets.
+
+They are not optional.
+
+Distribute them naturally throughout the website.
+
+Never place all images in one section.
+
+Never crop the face aggressively.
+
+Maintain facial identity.
+
+Use soft shadows.
+
+Editorial layouts.
+
+Magazine compositions.
+
+============================================================
+
+VIDEO DIRECTION
+
+Videos should never autoplay with sound.
+
+Muted autoplay is acceptable where appropriate.
+
+Hover interactions should feel smooth.
+
+Performance is more important than flashy effects.
+
+============================================================
+
+USER EXPERIENCE
+
+Visitors should naturally move through the website without confusion.
+
+Each section should answer one question before introducing the next.
+
+The website should guide users instead of overwhelming them.
+
+============================================================
+
+USER JOURNEY
+
+Landing
+
+↓
+
+Curiosity
+
+↓
+
+Trust
+
+↓
+
+Portfolio
+
+↓
+
+Services
+
+↓
+
+Process
+
+↓
+
+Pricing
+
+↓
+
+Contact
+
+The user should never wonder what to do next.
+
+============================================================
+
+COPYWRITING STYLE
+
+Simple.
+
+Honest.
+
+Confident.
+
+Human.
+
+Never exaggerate.
+
+Never use generic marketing phrases.
+
+Avoid:
+
+"We are the best."
+
+"World class."
+
+"Industry leading."
+
+Instead explain value clearly.
+
+============================================================
+
+PERFORMANCE
+
+Fast loading.
+
+Optimized assets.
+
+Responsive images.
+
+Minimal JavaScript.
+
+Smooth scrolling.
+
+Animations should never reduce performance on lower-end devices.
+
+============================================================
+
+ACCESSIBILITY
+
+Readable contrast.
+
+Keyboard navigation.
+
+Responsive layouts.
+
+Accessible typography.
+
+Meaningful alt text.
+
+============================================================
+
+BUSINESS GOAL
+
+The website exists for one purpose:
+
+Turn visitors into conversations.
+
+The success of the website is measured by:
+
+• WhatsApp enquiries
+• Portfolio views
+• Contact requests
+• Client trust
+
+—not by fancy animations.
+
+============================================================
+
+FINAL PRINCIPLE
+
+If a design choice looks impressive but reduces clarity, remove it.
+
+If an animation feels distracting, simplify it.
+
+If a section does not build trust, redesign it.
+
+If a page feels generic, rethink it.
+
+The website should never feel AI-generated.
+
+It should feel handcrafted.
+
+Visitors should leave with one thought:
+
+"This feels different.
+I want to work with him."

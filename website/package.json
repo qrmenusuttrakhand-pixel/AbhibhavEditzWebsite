@@ -1,0 +1,17 @@
+{
+  "name": "abhibhav-editz-website",
+  "version": "1.0.0",
+  "description": "Digital Identity and Portfolio for Abhibhav Editz Studio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -c-1",
+    "start": "npx http-server -p 3000 -c-1"
+  },
+  "keywords": [
+    "portfolio",
+    "creative-studio",
+    "video-editor"
+  ],
+  "author": "Abhibhav Editz",
+  "license": "ISC"
+}

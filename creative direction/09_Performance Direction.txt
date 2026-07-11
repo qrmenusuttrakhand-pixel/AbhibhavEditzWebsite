@@ -1,0 +1,385 @@
+# PERFORMANCE DIRECTION
+Version 1.0
+
+============================================================
+
+PURPOSE
+
+Performance is a feature.
+
+The website should feel instant.
+
+Visitors should never wait for unnecessary animations,
+large assets or bloated code.
+
+Every optimization should improve the user's experience.
+
+============================================================
+
+CORE PHILOSOPHY
+
+Build lightweight.
+
+Build efficiently.
+
+Build responsibly.
+
+Every line of code should have a purpose.
+
+If a feature negatively affects performance without adding meaningful value, remove it.
+
+============================================================
+
+PERFORMANCE GOALS
+
+Homepage should appear almost instantly.
+
+Scrolling should remain smooth.
+
+Animations should never cause frame drops.
+
+Videos should never freeze scrolling.
+
+Target a responsive experience on both modern and lower-end devices.
+
+============================================================
+
+LOADING STRATEGY
+
+Load only what is needed.
+
+Prioritize above-the-fold content.
+
+Delay loading of off-screen assets.
+
+Lazy load:
+
+Images
+
+Videos
+
+Portfolio thumbnails
+
+Project previews
+
+Heavy media
+
+============================================================
+
+IMAGE OPTIMIZATION
+
+Compress all images.
+
+Serve responsive image sizes.
+
+Prefer modern formats when supported.
+
+Preserve visual quality.
+
+Never sacrifice facial clarity.
+
+Do not load full-resolution images unless required.
+
+============================================================
+
+VIDEO OPTIMIZATION
+
+Videos should:
+
+Remain muted.
+
+Lazy load.
+
+Use preview posters.
+
+Pause automatically when off-screen.
+
+Load only after interaction when appropriate.
+
+Avoid multiple videos playing simultaneously.
+
+Optimize file sizes while preserving quality.
+
+============================================================
+
+FONT OPTIMIZATION
+
+Load only required font weights.
+
+Avoid unnecessary font families.
+
+Use modern font loading strategies.
+
+Prevent layout shifts.
+
+Maintain typography consistency.
+
+============================================================
+
+CSS
+
+Keep CSS modular.
+
+Avoid duplicate styles.
+
+Avoid unused classes.
+
+Avoid unnecessary frameworks.
+
+Prefer clean reusable components.
+
+============================================================
+
+JAVASCRIPT
+
+Keep JavaScript minimal.
+
+Remove unused scripts.
+
+Avoid heavy dependencies.
+
+Prefer native browser APIs whenever possible.
+
+Code should remain readable and maintainable.
+
+============================================================
+
+ANIMATIONS
+
+Animate only:
+
+Opacity
+
+Transform
+
+Scale
+
+Translate
+
+Avoid animating:
+
+Width
+
+Height
+
+Top
+
+Left
+
+Blur
+
+Large shadows
+
+Heavy filters
+
+Animations should remain GPU accelerated whenever possible.
+
+============================================================
+
+SCROLL PERFORMANCE
+
+Scrolling must remain smooth.
+
+Avoid expensive scroll listeners.
+
+Prefer:
+
+Intersection Observer
+
+RequestAnimationFrame
+
+Passive event listeners
+
+Reduce layout recalculations.
+
+============================================================
+
+MEDIA
+
+Optimize:
+
+Images
+
+Videos
+
+Icons
+
+Illustrations
+
+Never load assets larger than necessary.
+
+============================================================
+
+RESPONSIVE PERFORMANCE
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+Every device should receive an optimized experience.
+
+Reduce heavy effects on mobile.
+
+============================================================
+
+NETWORK PERFORMANCE
+
+Minimize requests.
+
+Combine assets when appropriate.
+
+Cache static files.
+
+Compress resources.
+
+Avoid unnecessary third-party scripts.
+
+============================================================
+
+ACCESSIBILITY PERFORMANCE
+
+Fast websites improve accessibility.
+
+Ensure interaction remains responsive.
+
+Reduce motion when users request reduced motion.
+
+============================================================
+
+ERROR HANDLING
+
+Broken assets should never break layouts.
+
+Missing images should degrade gracefully.
+
+Missing videos should display a clean placeholder.
+
+Never expose technical errors to visitors.
+
+============================================================
+
+CODE QUALITY
+
+Write clean.
+
+Readable.
+
+Modular.
+
+Maintainable.
+
+Document complex logic.
+
+Avoid duplicated functionality.
+
+============================================================
+
+THIRD-PARTY SERVICES
+
+Only include third-party libraries when they provide significant value.
+
+Every dependency should justify its existence.
+
+Avoid unnecessary analytics scripts.
+
+Avoid excessive tracking.
+
+============================================================
+
+LIGHTHOUSE TARGETS
+
+Aim for:
+
+Performance:
+95+
+
+Accessibility:
+100
+
+Best Practices:
+100
+
+SEO:
+100
+
+These are goals, not absolute requirements.
+
+Real user experience is more important than chasing perfect scores.
+
+============================================================
+
+USER EXPERIENCE
+
+The website should feel:
+
+Fast
+
+Responsive
+
+Smooth
+
+Reliable
+
+Premium
+
+Every interaction should happen immediately.
+
+============================================================
+
+WHAT TO AVOID
+
+Avoid:
+
+Large background videos.
+
+Heavy animation libraries.
+
+Unused CSS.
+
+Unused JavaScript.
+
+Large GIFs.
+
+Blocking resources.
+
+Unoptimized media.
+
+Infinite loops.
+
+Excessive DOM elements.
+
+Visual effects that reduce frame rate.
+
+============================================================
+
+SUCCESS
+
+Visitors should never think:
+
+"This website is slow."
+
+Instead they should think:
+
+"This feels effortless."
+
+Performance should become invisible.
+
+============================================================
+
+FINAL PRINCIPLE
+
+Speed builds trust.
+
+Smoothness builds confidence.
+
+Optimization is not a technical task.
+
+It is part of the user experience.
+
+Every millisecond matters.
+
+Always choose the solution that delivers the best balance between beauty, maintainability and performance.

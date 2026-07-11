@@ -1,0 +1,398 @@
+# SEO DIRECTION
+Version 1.0
+
+============================================================
+
+PURPOSE
+
+The website should be discoverable.
+
+SEO should feel natural.
+
+Never sacrifice user experience for search rankings.
+
+Write for humans first.
+
+Optimize for search engines second.
+
+The website should clearly communicate what Abhibhav Editz does.
+
+============================================================
+
+PRIMARY BUSINESS GOAL
+
+Generate qualified client enquiries.
+
+The website should attract:
+
+Personal Brands
+
+Content Creators
+
+Influencers
+
+Gym Owners
+
+Businesses
+
+Startups
+
+Commercial Brands
+
+The goal is quality leads, not random traffic.
+
+============================================================
+
+SEO PHILOSOPHY
+
+Build trust.
+
+Answer questions.
+
+Create useful pages.
+
+Avoid keyword stuffing.
+
+Avoid spam.
+
+Avoid duplicate content.
+
+Every page should have a purpose.
+
+============================================================
+
+PRIMARY KEYWORDS
+
+Video Editor India
+
+Freelance Video Editor
+
+Instagram Reel Editor
+
+Professional Video Editing
+
+Content Creator Video Editing
+
+YouTube Video Editor
+
+Motion Graphics Editor
+
+Commercial Video Editing
+
+Cinematic Video Editing
+
+Social Media Video Editing
+
+Use keywords naturally.
+
+Never force them into sentences.
+
+============================================================
+
+LOCAL SEO
+
+Mention India where appropriate.
+
+Mention availability for worldwide remote work.
+
+Use location naturally.
+
+Avoid repeating city names unnecessarily.
+
+============================================================
+
+PAGE TITLES
+
+Every page should have a unique title.
+
+Examples:
+
+Abhibhav Editz | Creative Video Editor
+
+Portfolio | Abhibhav Editz
+
+Services | Abhibhav Editz
+
+Pricing | Abhibhav Editz
+
+Contact | Abhibhav Editz
+
+Titles should remain under approximately 60 characters where practical.
+
+============================================================
+
+META DESCRIPTIONS
+
+Every page should have a unique meta description.
+
+Approximately 140–160 characters.
+
+Focus on value.
+
+Example:
+
+Creative video editing for brands, creators and businesses. Transform raw footage into memorable stories with Abhibhav Editz.
+
+============================================================
+
+HEADINGS
+
+Only one H1 per page.
+
+Use proper heading hierarchy.
+
+H1
+
+H2
+
+H3
+
+Never skip heading levels without reason.
+
+============================================================
+
+IMAGE SEO
+
+Every image must have meaningful alt text.
+
+Example:
+
+Abhibhav editing a cinematic video.
+
+Creative workspace of Abhibhav Editz.
+
+Editorial portrait of video editor Abhibhav.
+
+Avoid:
+
+image1
+
+photo
+
+picture
+
+============================================================
+
+VIDEO SEO
+
+Provide descriptive titles.
+
+Use poster images.
+
+Lazy load videos.
+
+Include captions where appropriate.
+
+Optimize file size.
+
+============================================================
+
+URL STRUCTURE
+
+Use clean URLs.
+
+Examples:
+
+/
+
+portfolio
+
+services
+
+pricing
+
+contact
+
+Avoid unnecessary parameters.
+
+Avoid random numbers.
+
+============================================================
+
+OPEN GRAPH
+
+Configure Open Graph metadata.
+
+Website title
+
+Description
+
+Preview image
+
+Website URL
+
+Brand name
+
+The website should look professional when shared on:
+
+WhatsApp
+
+Instagram
+
+LinkedIn
+
+Facebook
+
+X
+
+============================================================
+
+TWITTER / X CARDS
+
+Configure summary large image cards.
+
+Use the official brand image.
+
+Use the homepage description.
+
+============================================================
+
+STRUCTURED DATA
+
+Use Schema.org where appropriate.
+
+Website
+
+Organization
+
+Person
+
+Creative Work
+
+Professional Service
+
+Provide accurate information only.
+
+Never fabricate ratings or reviews.
+
+============================================================
+
+INTERNAL LINKING
+
+Connect related pages naturally.
+
+Services should link to Portfolio.
+
+Portfolio should link to Contact.
+
+Pricing should link to Services.
+
+The website should encourage natural exploration.
+
+============================================================
+
+PERFORMANCE SEO
+
+Optimize:
+
+Images
+
+Videos
+
+Fonts
+
+JavaScript
+
+CSS
+
+Target fast loading times.
+
+Performance is part of SEO.
+
+============================================================
+
+MOBILE SEO
+
+Design mobile-first.
+
+Google primarily evaluates the mobile experience.
+
+Ensure all content is available on mobile.
+
+============================================================
+
+ACCESSIBILITY
+
+Accessible websites generally perform better.
+
+Meaningful headings.
+
+Alt text.
+
+Readable typography.
+
+Keyboard support.
+
+Semantic HTML.
+
+============================================================
+
+TRUST SIGNALS
+
+Display:
+
+Professional branding
+
+Clear services
+
+Transparent pricing
+
+Easy contact methods
+
+Consistent identity
+
+Build credibility through clarity.
+
+============================================================
+
+WHAT TO AVOID
+
+Keyword stuffing.
+
+Hidden text.
+
+Fake testimonials.
+
+Fake reviews.
+
+Fake awards.
+
+Copied content.
+
+Clickbait titles.
+
+Spammy backlinks.
+
+Misleading claims.
+
+============================================================
+
+SUCCESS
+
+Success is measured by:
+
+Qualified enquiries.
+
+Portfolio visits.
+
+Contact requests.
+
+Time spent on the website.
+
+Repeat visitors.
+
+Not vanity metrics.
+
+============================================================
+
+FINAL PRINCIPLE
+
+The website should become discoverable because it is genuinely useful, well structured and trustworthy.
+
+Write for people.
+
+Optimize for search engines.
+
+Never sacrifice honesty for rankings.
+
+Build authority through consistency, quality and clarity.

@@ -1,0 +1,362 @@
+# PORTFOLIO DIRECTION
+Version 1.0
+
+============================================================
+
+PURPOSE
+
+The portfolio is not a gallery.
+
+The portfolio is the proof that Abhibhav Editz understands storytelling.
+
+Every project should answer one question:
+
+"Can I trust this person with my brand?"
+
+The portfolio exists to build confidence.
+
+Not to show off editing skills.
+
+============================================================
+
+OVERALL EXPERIENCE
+
+The portfolio should feel like walking through a premium creative studio.
+
+Each project should feel important.
+
+Every project deserves its own breathing space.
+
+Never stack projects too closely together.
+
+Let every project tell its own story.
+
+============================================================
+
+PORTFOLIO STRUCTURE
+
+Use the assets already available inside:
+
+Portfolio/
+
+Project 1/
+
+Project 2/
+
+Project 3/
+
+Videos/
+
+Always prefer uploaded assets over placeholders.
+
+Never ignore uploaded files.
+
+============================================================
+
+PROJECT PRESENTATION
+
+Each project should include:
+
+Project Thumbnail
+
+Project Title
+
+Category
+
+Short Description
+
+Main Video
+
+Supporting Images
+
+Call To Action
+
+Every project should have its own identity.
+
+============================================================
+
+PROJECT DESCRIPTIONS
+
+Do not write generic descriptions.
+
+Instead explain:
+
+The challenge.
+
+The vision.
+
+The editing style.
+
+The emotional goal.
+
+The final outcome.
+
+Keep descriptions concise.
+
+============================================================
+
+VISUAL PRESENTATION
+
+Use large previews.
+
+Allow videos to breathe.
+
+Use generous whitespace.
+
+Editorial layouts.
+
+Magazine-inspired spacing.
+
+Behance quality.
+
+Avoid cramped grids.
+
+============================================================
+
+VIDEO EXPERIENCE
+
+Videos should:
+
+Preview silently.
+
+Play smoothly.
+
+Pause automatically when off-screen.
+
+Support fullscreen.
+
+Never autoplay with sound.
+
+Never distract from surrounding content.
+
+============================================================
+
+IMAGES
+
+Images should complement videos.
+
+Never compete with them.
+
+Use AI portraits where appropriate.
+
+Preserve quality.
+
+Maintain proportions.
+
+Avoid repetitive layouts.
+
+============================================================
+
+PROJECT ORDER
+
+Projects should appear in order of impact.
+
+Strongest project first.
+
+Then supporting work.
+
+Finish with another strong piece.
+
+The portfolio should become more impressive as the visitor scrolls.
+
+============================================================
+
+CATEGORIES
+
+Possible categories:
+
+Typography
+
+Commercial
+
+Product Advertisement
+
+Social Media
+
+Personal Brand
+
+Gym Content
+
+Cinematic
+
+Documentary Style
+
+Each project should clearly belong to one category.
+
+============================================================
+
+INTERACTION
+
+Hover should reveal subtle information.
+
+Project cards should slightly elevate.
+
+Transitions should remain smooth.
+
+No dramatic animations.
+
+============================================================
+
+CASE STUDY STYLE
+
+Instead of simply showing a video,
+
+tell a story.
+
+Each project may include:
+
+Overview
+
+Challenge
+
+Solution
+
+Result
+
+This creates trust.
+
+============================================================
+
+FEATURED PROJECT
+
+The strongest project should become the featured project.
+
+Larger than the others.
+
+More detailed.
+
+Better storytelling.
+
+More visual space.
+
+============================================================
+
+BEFORE & AFTER
+
+If available,
+
+show before and after comparisons.
+
+Use sliders or side-by-side layouts.
+
+If unavailable,
+
+do not create fake comparisons.
+
+Never fabricate work.
+
+============================================================
+
+AUTHENTICITY
+
+Only showcase real work.
+
+Never invent fake clients.
+
+Never invent fake statistics.
+
+Never fabricate testimonials.
+
+Honesty builds stronger trust.
+
+============================================================
+
+PROJECT NAVIGATION
+
+Allow users to:
+
+Open project
+
+Watch video
+
+View images
+
+Return easily
+
+Navigation should feel effortless.
+
+============================================================
+
+RESPONSIVE DESIGN
+
+Portfolio should work beautifully on:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+Videos should resize naturally.
+
+Images should never break the layout.
+
+============================================================
+
+PERFORMANCE
+
+Lazy load videos.
+
+Lazy load images.
+
+Optimize previews.
+
+Prioritize visible content.
+
+The portfolio must remain fast.
+
+============================================================
+
+WHAT TO AVOID
+
+Avoid:
+
+Infinite carousels
+
+Heavy sliders
+
+Autoplay with sound
+
+Overcrowded layouts
+
+Tiny thumbnails
+
+Fake projects
+
+Placeholder videos
+
+Stock footage
+
+Misleading claims
+
+============================================================
+
+SUCCESS
+
+Visitors should finish the portfolio thinking:
+
+"This editor understands storytelling."
+
+"I can imagine my brand here."
+
+"This feels professional."
+
+"I want to contact him."
+
+============================================================
+
+FINAL PRINCIPLE
+
+The portfolio should never feel like a folder of videos.
+
+It should feel like a collection of carefully crafted stories.
+
+Every project should earn attention.
+
+Every scroll should increase trust.
+
+When visitors reach the end,
+
+they should already feel ready to start a conversation with Abhibhav Editz.

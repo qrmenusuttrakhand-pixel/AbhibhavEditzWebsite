@@ -1,0 +1,340 @@
+# QUALITY ASSURANCE CHECKLIST
+Version 1.0
+
+============================================================
+
+PURPOSE
+
+This document is the final quality gate.
+
+Before considering the website complete, review every section, every page and every interaction against this checklist.
+
+Never assume the website is finished until every item has been verified.
+
+============================================================
+
+BRAND CHECK
+
+☐ Does the website feel like Abhibhav Editz?
+
+☐ Does it feel warm?
+
+☐ Does it feel trustworthy?
+
+☐ Does it feel personal?
+
+☐ Does it avoid generic portfolio templates?
+
+☐ Does it avoid looking like an AI-generated website?
+
+☐ Does every page communicate the same brand identity?
+
+============================================================
+
+DESIGN CHECK
+
+☐ Is the design consistent?
+
+☐ Are spacing values consistent?
+
+☐ Is typography consistent?
+
+☐ Are colors used consistently?
+
+☐ Are shadows subtle?
+
+☐ Is whitespace generous?
+
+☐ Does every section breathe?
+
+☐ Is visual hierarchy clear?
+
+============================================================
+
+IMAGE CHECK
+
+☐ Are all official AI brand images used appropriately?
+
+☐ Are no placeholder people used?
+
+☐ Are faces preserved correctly?
+
+☐ Are images high quality?
+
+☐ Are proportions correct?
+
+☐ Are there no stretched images?
+
+☐ Are images distributed naturally throughout the website?
+
+☐ Are unnecessary duplicate images removed?
+
+============================================================
+
+PORTFOLIO CHECK
+
+☐ Do all projects load correctly?
+
+☐ Do all videos work?
+
+☐ Do preview thumbnails display?
+
+☐ Do project descriptions make sense?
+
+☐ Are no fake clients presented?
+
+☐ Are no fake testimonials displayed?
+
+☐ Does every project tell a story?
+
+============================================================
+
+SERVICES CHECK
+
+☐ Are services explained clearly?
+
+☐ Is pricing easy to understand?
+
+☐ Is the workflow explained?
+
+☐ Are PDFs linked correctly?
+
+☐ Are all buttons working?
+
+============================================================
+
+COPY CHECK
+
+☐ Is the writing natural?
+
+☐ Does it sound human?
+
+☐ Does it sound like Abhibhav?
+
+☐ Are there grammar mistakes?
+
+☐ Are there spelling mistakes?
+
+☐ Does every headline have a purpose?
+
+☐ Are paragraphs easy to read?
+
+☐ Is unnecessary marketing language removed?
+
+============================================================
+
+NAVIGATION CHECK
+
+☐ Does every navigation link work?
+
+☐ Does the logo return to Home?
+
+☐ Does the navigation remain clear on mobile?
+
+☐ Is the sticky navigation working?
+
+☐ Are active sections highlighted correctly?
+
+============================================================
+
+BUTTON CHECK
+
+☐ Does every button work?
+
+☐ Do CTA buttons lead to the correct destination?
+
+☐ Are hover states smooth?
+
+☐ Are touch interactions working?
+
+☐ Are buttons easy to identify?
+
+============================================================
+
+VIDEO CHECK
+
+☐ Videos load correctly.
+
+☐ Videos remain muted.
+
+☐ Videos pause off-screen.
+
+☐ Videos support fullscreen.
+
+☐ Videos do not reduce performance.
+
+============================================================
+
+RESPONSIVE CHECK
+
+Desktop
+
+☐ Perfect
+
+Laptop
+
+☐ Perfect
+
+Tablet
+
+☐ Perfect
+
+Mobile
+
+☐ Perfect
+
+No broken layouts.
+
+No overlapping content.
+
+No horizontal scrolling.
+
+============================================================
+
+PERFORMANCE CHECK
+
+☐ Images optimized.
+
+☐ Videos optimized.
+
+☐ Lazy loading enabled.
+
+☐ Animations remain smooth.
+
+☐ Website loads quickly.
+
+☐ No unnecessary JavaScript.
+
+☐ No unnecessary CSS.
+
+============================================================
+
+ACCESSIBILITY CHECK
+
+☐ Alt text added.
+
+☐ Proper heading hierarchy.
+
+☐ Keyboard navigation works.
+
+☐ Focus states visible.
+
+☐ Readable contrast.
+
+☐ Reduced motion supported.
+
+============================================================
+
+SEO CHECK
+
+☐ Page titles unique.
+
+☐ Meta descriptions present.
+
+☐ Open Graph configured.
+
+☐ Images have alt text.
+
+☐ URLs are clean.
+
+☐ Structured data added where appropriate.
+
+============================================================
+
+CONTACT CHECK
+
+☐ WhatsApp works.
+
+☐ Email works.
+
+☐ Contact form works.
+
+☐ Social links work.
+
+☐ Every contact option is easy to find.
+
+============================================================
+
+TRUST CHECK
+
+Ask one question:
+
+"If I visited this website for the first time, would I trust Abhibhav Editz with my brand?"
+
+If the answer is no,
+
+identify why.
+
+Fix it.
+
+Test again.
+
+============================================================
+
+EMOTIONAL CHECK
+
+Ask another question:
+
+"What emotion does the homepage create within five seconds?"
+
+Desired answer:
+
+"This feels different."
+
+Not:
+
+"This looks cool."
+
+Not:
+
+"This has nice animations."
+
+The emotion matters more than the effects.
+
+============================================================
+
+FINAL REVIEW
+
+Before deployment, perform one complete review without looking at the code.
+
+Experience the website exactly as a first-time visitor.
+
+Ask yourself:
+
+Is the journey clear?
+
+Is every section meaningful?
+
+Is anything distracting?
+
+Is anything missing?
+
+Would I contact this person after visiting this website?
+
+If any answer is uncertain,
+
+improve the experience before publishing.
+
+============================================================
+
+FINAL PRINCIPLE
+
+Never ship because the code is finished.
+
+Ship because the experience is finished.
+
+A successful website is not measured by how beautiful it looks.
+
+It is measured by how many people trust the person behind it.
+
+The final goal is simple:
+
+A visitor should close the website thinking:
+
+"I know who Abhibhav is."
+
+"I trust his process."
+
+"I want to work with him."
+
+Only then is the project complete.

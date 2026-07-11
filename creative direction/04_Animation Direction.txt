@@ -1,0 +1,418 @@
+# ANIMATION DIRECTION
+Version 1.0
+
+============================================================
+
+PURPOSE
+
+Animation exists to improve clarity, storytelling and user experience.
+
+Animation should never exist simply because it looks impressive.
+
+Every movement must guide the user's attention.
+
+If an animation distracts from the content, remove it.
+
+The website should feel alive, not animated.
+
+============================================================
+
+OVERALL FEELING
+
+The experience should feel like:
+
+Apple.com
+
+Linear.app
+
+Notion
+
+Framer
+
+Behance Editorial Projects
+
+Luxury fashion websites
+
+The movement should be:
+
+Smooth
+
+Natural
+
+Elegant
+
+Confident
+
+Purposeful
+
+Premium
+
+Never childish.
+
+Never flashy.
+
+Never overwhelming.
+
+============================================================
+
+ANIMATION PRINCIPLES
+
+Every animation should answer one question:
+
+"What problem does this movement solve?"
+
+If the answer is "nothing",
+
+remove it.
+
+============================================================
+
+GENERAL TIMING
+
+Micro Interactions
+
+150ms–250ms
+
+Hover
+
+180ms–250ms
+
+Fade In
+
+500ms–700ms
+
+Section Reveal
+
+600ms–900ms
+
+Page Transition
+
+500ms
+
+Never exceed 1000ms.
+
+Never create slow websites.
+
+============================================================
+
+EASING
+
+Use natural easing.
+
+Prefer:
+
+ease-out
+
+ease-in-out
+
+Avoid:
+
+Linear animations
+
+Bounce
+
+Elastic
+
+Rubber effects
+
+Cartoon movement
+
+============================================================
+
+SCROLL ANIMATIONS
+
+Sections should appear naturally.
+
+Fade
+
+Small upward movement
+
+Tiny opacity transition
+
+Very small translateY
+
+Around 20px maximum
+
+Never slide entire sections across the screen.
+
+============================================================
+
+TEXT REVEALS
+
+Large headlines should appear elegantly.
+
+Fade
+
+Opacity
+
+Very small upward movement
+
+Optional word-by-word reveal
+
+Never use dramatic typewriter animations.
+
+Never use excessive letter animations.
+
+============================================================
+
+IMAGE ANIMATIONS
+
+Images should feel printed onto the page.
+
+Fade in gently.
+
+Scale from 98% to 100%.
+
+Very soft upward movement.
+
+Never zoom aggressively.
+
+Never rotate.
+
+Never spin.
+
+Never bounce.
+
+============================================================
+
+BUTTON ANIMATIONS
+
+Hover should feel premium.
+
+Tiny lift.
+
+Very soft shadow.
+
+Smooth color transition.
+
+Tiny scale (maximum 1.02).
+
+No dramatic movement.
+
+============================================================
+
+CARD ANIMATIONS
+
+Cards should slightly elevate.
+
+Very soft shadow.
+
+Tiny upward movement.
+
+Never flip.
+
+Never rotate.
+
+Never explode.
+
+============================================================
+
+NAVIGATION
+
+Navigation should remain calm.
+
+Sticky after slight scrolling.
+
+Shrink slightly.
+
+Background softly appears.
+
+No dramatic entrance.
+
+============================================================
+
+PAGE LOAD
+
+No complicated loading screens.
+
+No fake loading bars.
+
+No unnecessary delays.
+
+Content should become visible immediately.
+
+The website should feel fast.
+
+============================================================
+
+VIDEO INTERACTION
+
+Videos should:
+
+Pause when off-screen.
+
+Play only when appropriate.
+
+Remain muted.
+
+Never autoplay with sound.
+
+Hover-to-preview is encouraged.
+
+============================================================
+
+PARALLAX
+
+Very subtle only.
+
+Maximum movement:
+
+20–30px
+
+Avoid deep parallax.
+
+Avoid layered floating effects.
+
+Never make users dizzy.
+
+============================================================
+
+MOUSE INTERACTIONS
+
+Avoid custom cursors.
+
+Avoid cursor trails.
+
+Avoid particles.
+
+Avoid magnetic buttons unless extremely subtle.
+
+Cursor should remain familiar.
+
+============================================================
+
+SECTION TRANSITIONS
+
+One section should naturally lead into the next.
+
+Spacing should create rhythm.
+
+Animations should never interrupt reading.
+
+============================================================
+
+MOBILE
+
+Animations should be reduced.
+
+Performance takes priority.
+
+Everything must remain smooth on lower-end devices.
+
+Avoid expensive animations.
+
+============================================================
+
+PERFORMANCE
+
+Always use GPU-friendly animations.
+
+Animate:
+
+Opacity
+
+Transform
+
+Scale
+
+Translate
+
+Avoid animating:
+
+Width
+
+Height
+
+Top
+
+Left
+
+Box-shadow repeatedly
+
+Heavy blur filters
+
+Performance is more important than visual complexity.
+
+============================================================
+
+ACCESSIBILITY
+
+Respect the user's
+
+"prefers-reduced-motion"
+
+setting.
+
+Reduce animation automatically.
+
+Never force movement.
+
+============================================================
+
+EMOTIONAL GOAL
+
+Animations should feel like breathing.
+
+Not dancing.
+
+Not performing.
+
+The visitor should barely notice the animation.
+
+They should simply feel that the website is pleasant to use.
+
+============================================================
+
+THINGS TO AVOID
+
+No bouncing.
+
+No spinning.
+
+No shaking.
+
+No random floating icons.
+
+No unnecessary particle systems.
+
+No fireworks.
+
+No excessive 3D.
+
+No RGB glow.
+
+No futuristic effects.
+
+No distracting motion.
+
+============================================================
+
+SUCCESS
+
+The animation succeeds when people never mention it.
+
+Instead they say:
+
+"This website feels incredibly smooth."
+
+"It feels premium."
+
+"It feels effortless."
+
+That is the goal.
+
+============================================================
+
+FINAL PRINCIPLE
+
+Motion should support the story.
+
+Never become the story.
+
+The best animation is the one users don't consciously notice but would miss if it disappeared.
+
+Every movement should create trust.
+
+Every transition should create comfort.
+
+Every interaction should feel handcrafted.
