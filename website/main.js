@@ -11,7 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
   setupLightbox();
   setupContactForm();
   setupShowcaseVideoAutoplay();
+  setupHeroVideos();
 });
+
+/**
+ * Sets the playback speed of the mobile and desktop hero background videos for an elegant slow-motion effect.
+ */
+function setupHeroVideos() {
+  const mobileVideo = document.querySelector('.mobile-hero-video-el');
+  if (mobileVideo) {
+    mobileVideo.playbackRate = 0.5;
+  }
+  const desktopVideo = document.querySelector('.desktop-hero-video-el');
+  if (desktopVideo) {
+    desktopVideo.playbackRate = 0.5;
+  }
+}
 
 /**
  * Adds a scrolled class to the header for stylistic transition when scrolling down.
@@ -62,35 +77,74 @@ function setupPortfolioFilter() {
   const items = document.querySelectorAll('.portfolio-item');
   if (filterButtons.length === 0 || items.length === 0) return;
 
-  filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      // Remove active from all
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
+  const isMobile = () => window.matchMedia('(max-width: 768px)').matches;
 
+  filterButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
       const filter = button.getAttribute('data-filter');
 
-      items.forEach(item => {
-        const category = item.getAttribute('data-category');
+      if (isMobile()) {
+        e.preventDefault();
         
-        if (filter === 'all' || category === filter) {
-          item.style.display = '';
-          // Force a reflow for transition
-          void item.offsetWidth;
-          item.style.opacity = '1';
-          item.style.transform = 'translateY(0) scale(1)';
-        } else {
-          item.style.opacity = '0';
-          item.style.transform = 'translateY(15px) scale(0.98)';
-          // Delay display none until transition finishes
-          setTimeout(() => {
-            if (item.style.opacity === '0') {
-              item.style.display = 'none';
-            }
-          }, 500);
+        // Remove active from all and add to current
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        // Scroll to category row on mobile
+        let targetId = '';
+        if (filter === 'reels') targetId = 'cat-reels';
+        else if (filter === 'cinematic') targetId = 'cat-cinematic';
+        else if (filter === 'design') targetId = 'cat-design-mobile';
+        else targetId = 'work'; // All Projects -> scroll to top of Selected Work
+
+        const targetEl = document.getElementById(targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-      });
+      } else {
+        // Desktop filtering behavior
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        items.forEach(item => {
+          const category = item.getAttribute('data-category');
+          
+          if (filter === 'all' || category === filter) {
+            item.style.display = '';
+            // Force a reflow for transition
+            void item.offsetWidth;
+            item.style.opacity = '1';
+            item.style.transform = 'translateY(0) scale(1)';
+          } else {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(15px) scale(0.98)';
+            // Delay display none until transition finishes
+            setTimeout(() => {
+              if (item.style.opacity === '0') {
+                item.style.display = 'none';
+              }
+            }, 500);
+          }
+        });
+      }
     });
+  });
+
+  // Handle window resizing to clean up inline styles between desktop and mobile modes
+  window.addEventListener('resize', () => {
+    if (isMobile()) {
+      items.forEach(item => {
+        item.style.display = '';
+        item.style.opacity = '';
+        item.style.transform = '';
+      });
+      const reels = document.querySelector('.reels-carousel-container');
+      const cinematic = document.querySelector('.cinematic-carousel-container');
+      const design = document.querySelector('.design-carousel-container');
+      if (reels) reels.style.display = '';
+      if (cinematic) cinematic.style.display = '';
+      if (design) design.style.display = '';
+    }
   });
 }
 
@@ -102,21 +156,28 @@ function setupVideoHoverPlayback() {
   const videoContainers = document.querySelectorAll('.media-wrapper[data-media-type="video"]');
   if (videoContainers.length === 0) return;
 
+  const isMobile = () => window.matchMedia('(max-width: 768px)').matches;
+
   videoContainers.forEach(container => {
     const video = container.querySelector('video');
     if (!video) return;
 
-    // Hover actions
+    // Hover actions - only active on desktop
     container.addEventListener('mouseenter', () => {
-      video.play().catch(err => console.log("Muted video autoplay blocked: ", err));
+      if (!isMobile()) {
+        video.play().catch(err => console.log("Muted video autoplay blocked: ", err));
+      }
     });
 
     container.addEventListener('mouseleave', () => {
-      video.pause();
+      if (!isMobile()) {
+        video.pause();
+      }
     });
   });
 
   // IntersectionObserver to pause out-of-screen videos (performance optimization)
+  // and autoplay visible videos on mobile.
   const observerOptions = {
     root: null,
     rootMargin: '0px',
@@ -128,7 +189,11 @@ function setupVideoHoverPlayback() {
       const video = entry.target.querySelector('video');
       if (!video) return;
 
-      if (!entry.isIntersecting) {
+      if (entry.isIntersecting) {
+        if (isMobile()) {
+          video.play().catch(err => console.log("Mobile video autoplay blocked: ", err));
+        }
+      } else {
         video.pause();
       }
     });

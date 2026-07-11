@@ -78,6 +78,22 @@
 
   <!-- Hero Section -->
   <section class="hero" id="hero">
+    <!-- Mobile Cinematic Video Background -->
+    <div class="mobile-hero-video-bg">
+      <div class="mobile-hero-video-overlay"></div>
+      <video loop muted playsinline autoplay preload="auto" class="mobile-hero-video-el">
+        <source src="/portfolio/project%202/branding.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Desktop Cinematic Video Background -->
+    <div class="desktop-hero-video-bg">
+      <div class="desktop-hero-video-overlay"></div>
+      <video loop muted playsinline autoplay preload="auto" class="desktop-hero-video-el">
+        <source src="/portfolio/project%202/branding.mp4" type="video/mp4">
+      </video>
+    </div>
+
     <div class="container hero-grid">
       <!-- Left Column: Editorial Typography -->
       <div class="hero-text-block">
@@ -103,7 +119,7 @@
         </div>
       </div>
       
-      <!-- Right Column: Blended Portrait Collage -->
+      <!-- Right Column: Blended Portrait Collage (Hidden via CSS) -->
       <div class="hero-visual-block">
         <div class="collage-wrapper">
           <img src="/portfolio/project%202/hero.png" alt="Abhibhav Designs Collage featuring portrait of Abhi standing inside bold painted typography, surrounded by film reels and design storyboards" class="collage-img" width="1920" height="1080">
@@ -148,159 +164,220 @@
       </ul>
       
       <div class="portfolio-grid">
-        <!-- Project 1 - Video 1 -->
-        <div class="portfolio-item third" data-category="reels">
-          <div class="media-wrapper vertical" tabindex="0" role="button" aria-label="Play Creative Journey Part I video" data-media-type="video" data-media-src="/portfolio/project%201/journey-part-1.mp4">
-            <video loop muted playsinline preload="metadata">
-              <source src="/portfolio/project%201/journey-part-1.mp4#t=0.001" type="video/mp4">
-            </video>
-            <div class="media-overlay">
-              <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
-                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-          </div>
-          <div class="item-info">
-            <span class="item-category">Short-Form / Documentary</span>
-            <h3 class="item-title">The Creative Journey — Part I</h3>
-            <p class="item-description">A typographic documentary exploring the initial steps, mindset, and consistency needed for creative growth.</p>
-          </div>
-        </div>
-
-        <!-- Project 1 - Video 2 -->
-        <div class="portfolio-item third" data-category="reels">
-          <div class="media-wrapper vertical" tabindex="0" role="button" aria-label="Play Creative Journey Part II video" data-media-type="video" data-media-src="/portfolio/project%201/journey-part-2.mp4">
-            <video loop muted playsinline preload="metadata">
-              <source src="/portfolio/project%201/journey-part-2.mp4#t=0.001" type="video/mp4">
-            </video>
-            <div class="media-overlay">
-              <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
-                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-          </div>
-          <div class="item-info">
-            <span class="item-category">Short-Form / Typography</span>
-            <h3 class="item-title">The Creative Journey — Part II</h3>
-            <p class="item-description">Expressive typography and graphic animations showing editorial pacing and visual structure.</p>
-          </div>
-        </div>
-
-        <!-- Project 1 - Video 3 -->
-        <div class="portfolio-item third" data-category="reels">
-          <div class="media-wrapper vertical" tabindex="0" role="button" aria-label="Play Creative Journey Part III video" data-media-type="video" data-media-src="/portfolio/project%201/journey-part-3.mp4">
-            <video loop muted playsinline preload="metadata">
-              <source src="/portfolio/project%201/journey-part-3.mp4#t=0.001" type="video/mp4">
-            </video>
-            <div class="media-overlay">
-              <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
-                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-          </div>
-          <div class="item-info">
-            <span class="item-category">Short-Form / Commercial Hook</span>
-            <h3 class="item-title">The Creative Journey — Part III</h3>
-            <p class="item-description">Analyzing commercial value and business alignment through fast cuts and engagement-focused copywriting.</p>
-          </div>
-        </div>
-
-        <!-- Project 3 - Long cinematic video -->
-        <div class="portfolio-item wide" data-category="cinematic">
-          <div class="media-wrapper" tabindex="0" role="button" aria-label="Play 101 Final Cut cinematic film" data-media-type="video" data-media-src="/portfolio/project%203/101-final-part-2.mp4">
-            <video loop muted playsinline preload="metadata">
-              <source src="/portfolio/project%203/101-final-part-2.mp4#t=0.001" type="video/mp4">
-            </video>
-            <div class="media-overlay">
-              <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
-                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-          </div>
-          <div class="item-info">
-            <span class="item-category">Cinematic Film / Commercial Campaign</span>
-            <h3 class="item-title">101 Final Cut (Cinematic Film)</h3>
-            <p class="item-description">A deep-dive editorial piece. Combining slow-paced atmospheric pacing, sound design overlays, and custom color science to evoke a premium editorial feel.</p>
-          </div>
-        </div>
-
-        <!-- Videos - POV editor video -->
-        <div class="portfolio-item wide" data-category="cinematic">
-          <div class="media-wrapper" tabindex="0" role="button" aria-label="Play 101 POV behind the lens video" data-media-type="video" data-media-src="/portfolio/videos/101-pov.mp4">
-            <video loop muted playsinline preload="metadata">
-              <source src="/portfolio/videos/101-pov.mp4#t=0.001" type="video/mp4">
-            </video>
-            <div class="media-overlay">
-              <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
-                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-          </div>
-          <div class="item-info">
-            <span class="item-category">Documentary / Behind the Craft</span>
-            <h3 class="item-title">101 POV: Editing Behind the Lens</h3>
-            <p class="item-description">A first-person point of view documenting the edit suite workflow. From selecting raw frames and aligning audio tracks, to the final rendering sequence.</p>
-          </div>
-        </div>
-
-        <!-- Project 2 - Image/Graphic Showcase -->
-        <div class="portfolio-item wide" data-category="design">
-          <div class="showcase-editorial-layout">
-            <!-- Hero Video Asset -->
-            <div class="showcase-hero-video-wrapper">
-              <div class="film-grain-overlay"></div>
-              <video loop muted playsinline autoplay preload="auto" class="showcase-hero-video">
-                <source src="/portfolio/project%202/branding.mp4" type="video/mp4">
-              </video>
-            </div>
-
-            <!-- Card 1: profile.png -->
-            <div class="showcase-card card-profile" tabindex="0" role="button" aria-label="View design asset: Clean typography presentation showing serif font layout and layout hierarchy" data-media-type="image" data-media-src="/portfolio/project%202/profile.png">
-              <img src="/portfolio/project%202/profile.png" alt="Clean typography presentation showing serif font layout and layout hierarchy" loading="lazy">
-              <div class="grid-thumb-overlay">
-                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <!-- Short-form & Reels Category -->
+        <div class="portfolio-category-row" id="cat-reels">
+          <h3 class="category-row-title">Short-form & Reels</h3>
+          <div class="reels-carousel-container">
+            <!-- Project 1 - Video 1 -->
+            <div class="portfolio-item third" data-category="reels">
+              <div class="media-wrapper vertical" tabindex="0" role="button" aria-label="Play Creative Journey Part I video" data-media-type="video" data-media-src="/portfolio/project%201/journey-part-1.mp4">
+                <video loop muted playsinline preload="metadata">
+                  <source src="/portfolio/project%201/journey-part-1.mp4#t=0.001" type="video/mp4">
+                </video>
+                <div class="media-overlay">
+                  <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
+                    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="item-info">
+                <span class="item-category">Short-Form / Documentary</span>
+                <h3 class="item-title">The Creative Journey — Part I</h3>
+                <p class="item-description">A typographic documentary exploring the initial steps, mindset, and consistency needed for creative growth.</p>
               </div>
             </div>
 
-            <!-- Card 2: extra.png -->
-            <div class="showcase-card card-extra" tabindex="0" role="button" aria-label="View design asset: Graphic details outlining brand assets and custom typography guidelines" data-media-type="image" data-media-src="/portfolio/project%202/extra.png">
-              <img src="/portfolio/project%202/extra.png" alt="Graphic details outlining brand assets and custom typography guidelines" loading="lazy">
-              <div class="grid-thumb-overlay">
-                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <!-- Project 1 - Video 2 -->
+            <div class="portfolio-item third" data-category="reels">
+              <div class="media-wrapper vertical" tabindex="0" role="button" aria-label="Play Creative Journey Part II video" data-media-type="video" data-media-src="/portfolio/project%201/journey-part-2.mp4">
+                <video loop muted playsinline preload="metadata">
+                  <source src="/portfolio/project%201/journey-part-2.mp4#t=0.001" type="video/mp4">
+                </video>
+                <div class="media-overlay">
+                  <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
+                    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="item-info">
+                <span class="item-category">Short-Form / Typography</span>
+                <h3 class="item-title">The Creative Journey — Part II</h3>
+                <p class="item-description">Expressive typography and graphic animations showing editorial pacing and visual structure.</p>
               </div>
             </div>
 
-            <!-- Card 3: about.png -->
-            <div class="showcase-card card-about" tabindex="0" role="button" aria-label="View design asset: Post-production edit suite layout featuring multiple screens and color grading workspace" data-media-type="image" data-media-src="/portfolio/project%202/about.png">
-              <img src="/portfolio/project%202/about.png" alt="Post-production edit suite layout featuring multiple screens and color grading workspace" loading="lazy">
-              <div class="grid-thumb-overlay">
-                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <!-- Project 1 - Video 3 -->
+            <div class="portfolio-item third" data-category="reels">
+              <div class="media-wrapper vertical" tabindex="0" role="button" aria-label="Play Creative Journey Part III video" data-media-type="video" data-media-src="/portfolio/project%201/journey-part-3.mp4">
+                <video loop muted playsinline preload="metadata">
+                  <source src="/portfolio/project%201/journey-part-3.mp4#t=0.001" type="video/mp4">
+                </video>
+                <div class="media-overlay">
+                  <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
+                    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
               </div>
-            </div>
-
-            <!-- Card 4: studio.png -->
-            <div class="showcase-card card-studio" tabindex="0" role="button" aria-label="View design asset: Abhibhav Editz magazine cover design featuring the editing crew and cameras" data-media-type="image" data-media-src="/portfolio/project%202/studio.png">
-              <img src="/portfolio/project%202/studio.png" alt="Abhibhav Editz magazine cover design featuring the editing crew and cameras" loading="lazy">
-              <div class="grid-thumb-overlay">
-                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-              </div>
-            </div>
-
-            <!-- Card 5: contact.png -->
-            <div class="showcase-card card-contact" tabindex="0" role="button" aria-label="View design asset: Instagram style mockup of editor holding a camera frame against a yellow backdrop" data-media-type="image" data-media-src="/portfolio/project%202/contact.png">
-              <img src="/portfolio/project%202/contact.png" alt="Instagram style mockup of editor holding a camera frame against a yellow backdrop" loading="lazy">
-              <div class="grid-thumb-overlay">
-                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+              <div class="item-info">
+                <span class="item-category">Short-Form / Commercial Hook</span>
+                <h3 class="item-title">The Creative Journey — Part III</h3>
+                <p class="item-description">Analyzing commercial value and business alignment through fast cuts and engagement-focused copywriting.</p>
               </div>
             </div>
           </div>
-          <div class="item-info">
-            <span class="item-category">Visual Direction / Art Direction</span>
-            <h3 class="item-title">Visual Identity & Graphic Systems</h3>
-            <p class="item-description">Editorial layouts, thumbnail guidelines, typography system styling, and color structures compiled for digital creators and brands.</p>
+        </div>
+
+        <!-- Cinematic & Documentary Category -->
+        <div class="portfolio-category-row" id="cat-cinematic">
+          <h3 class="category-row-title">Cinematic & Documentary</h3>
+          <div class="cinematic-carousel-container">
+            <!-- Project 3 - Long cinematic video -->
+            <div class="portfolio-item wide" data-category="cinematic">
+              <div class="media-wrapper" tabindex="0" role="button" aria-label="Play 101 Final Cut cinematic film" data-media-type="video" data-media-src="/portfolio/project%203/101-final-part-2.mp4">
+                <video loop muted playsinline preload="metadata">
+                  <source src="/portfolio/project%203/101-final-part-2.mp4#t=0.001" type="video/mp4">
+                </video>
+                <div class="media-overlay">
+                  <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
+                    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="item-info">
+                <span class="item-category">Cinematic Film / Commercial Campaign</span>
+                <h3 class="item-title">101 Final Cut (Cinematic Film)</h3>
+                <p class="item-description">A deep-dive editorial piece. Combining slow-paced atmospheric pacing, sound design overlays, and custom color science to evoke a premium editorial feel.</p>
+              </div>
+            </div>
+
+            <!-- Videos - POV editor video -->
+            <div class="portfolio-item wide" data-category="cinematic">
+              <div class="media-wrapper" tabindex="0" role="button" aria-label="Play 101 POV behind the lens video" data-media-type="video" data-media-src="/portfolio/videos/101-pov.mp4">
+                <video loop muted playsinline preload="metadata">
+                  <source src="/portfolio/videos/101-pov.mp4#t=0.001" type="video/mp4">
+                </video>
+                <div class="media-overlay">
+                  <button class="play-icon-btn" aria-label="Play Video" tabindex="-1">
+                    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="item-info">
+                <span class="item-category">Documentary / Behind the Craft</span>
+                <h3 class="item-title">101 POV: Editing Behind the Lens</h3>
+                <p class="item-description">A first-person point of view documenting the edit suite workflow. From selecting raw frames and aligning audio tracks, to the final rendering sequence.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Direction Category -->
+        <div class="portfolio-category-row" id="cat-design">
+          <h3 class="category-row-title">Visual Direction</h3>
+          <div class="design-carousel-container">
+            <!-- Project 2 - Image/Graphic Showcase -->
+            <div class="portfolio-item wide" data-category="design">
+              <div class="showcase-editorial-layout">
+                <!-- Hero Video Asset -->
+                <div class="showcase-hero-video-wrapper">
+                  <div class="film-grain-overlay"></div>
+                  <video loop muted playsinline autoplay preload="auto" class="showcase-hero-video">
+                    <source src="/portfolio/project%202/branding.mp4" type="video/mp4">
+                  </video>
+                </div>
+
+                <!-- Card 1: profile.png -->
+                <div class="showcase-card card-profile" tabindex="0" role="button" aria-label="View design asset: Clean typography presentation showing serif font layout and layout hierarchy" data-media-type="image" data-media-src="/portfolio/project%202/profile.png">
+                  <img src="/portfolio/project%202/profile.png" alt="Clean typography presentation showing serif font layout and layout hierarchy" loading="lazy">
+                  <div class="grid-thumb-overlay">
+                    <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                  </div>
+                </div>
+
+                <!-- Card 2: extra.png -->
+                <div class="showcase-card card-extra" tabindex="0" role="button" aria-label="View design asset: Graphic details outlining brand assets and custom typography guidelines" data-media-type="image" data-media-src="/portfolio/project%202/extra.png">
+                  <img src="/portfolio/project%202/extra.png" alt="Graphic details outlining brand assets and custom typography guidelines" loading="lazy">
+                  <div class="grid-thumb-overlay">
+                    <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                  </div>
+                </div>
+
+                <!-- Card 3: about.png -->
+                <div class="showcase-card card-about" tabindex="0" role="button" aria-label="View design asset: Post-production edit suite layout featuring multiple screens and color grading workspace" data-media-type="image" data-media-src="/portfolio/project%202/about.png">
+                  <img src="/portfolio/project%202/about.png" alt="Post-production edit suite layout featuring multiple screens and color grading workspace" loading="lazy">
+                  <div class="grid-thumb-overlay">
+                    <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                  </div>
+                </div>
+
+                <!-- Card 4: studio.png -->
+                <div class="showcase-card card-studio" tabindex="0" role="button" aria-label="View design asset: Abhibhav Editz magazine cover design featuring the editing crew and cameras" data-media-type="image" data-media-src="/portfolio/project%202/studio.png">
+                  <img src="/portfolio/project%202/studio.png" alt="Abhibhav Editz magazine cover design featuring the editing crew and cameras" loading="lazy">
+                  <div class="grid-thumb-overlay">
+                    <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                  </div>
+                </div>
+
+                <!-- Card 5: contact.png -->
+                <div class="showcase-card card-contact" tabindex="0" role="button" aria-label="View design asset: Instagram style mockup of editor holding a camera frame against a yellow backdrop" data-media-type="image" data-media-src="/portfolio/project%202/contact.png">
+                  <img src="/portfolio/project%202/contact.png" alt="Instagram style mockup of editor holding a camera frame against a yellow backdrop" loading="lazy">
+                  <div class="grid-thumb-overlay">
+                    <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="item-info">
+                <span class="item-category">Visual Direction / Art Direction</span>
+                <h3 class="item-title">Visual Identity & Graphic Systems</h3>
+                <p class="item-description">Editorial layouts, thumbnail guidelines, typography system styling, and color structures compiled for digital creators and brands.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Mobile-Only Visual Direction Section -->
+      <div class="mobile-only-design-showcase" id="cat-design-mobile">
+        <h3 class="category-row-title">Visual Direction</h3>
+        
+        <!-- Large Featured Media Block (Hero) -->
+        <div class="mobile-showcase-hero" tabindex="0" role="button" aria-label="Play Branding Film video" data-media-type="video" data-media-src="/portfolio/project%202/branding.mp4">
+          <video loop muted playsinline autoplay preload="auto" class="mobile-showcase-video">
+            <source src="/portfolio/project%202/branding.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <!-- Centered Editorial Text Block -->
+        <div class="mobile-showcase-intro">
+          <p class="showcase-tagline">"The visual language behind every edit."</p>
+        </div>
+
+        <!-- Asymmetrical Editorial Gallery -->
+        <div class="mobile-showcase-gallery">
+          <!-- split row -->
+          <div class="gallery-row-split">
+            <div class="gallery-item" tabindex="0" role="button" aria-label="View design asset: Clean typography presentation showing serif font layout and layout hierarchy" data-media-type="image" data-media-src="/portfolio/project%202/profile.png">
+              <img src="/portfolio/project%202/profile.png" alt="Clean typography presentation showing serif font layout and layout hierarchy" loading="lazy">
+            </div>
+            <div class="gallery-item" tabindex="0" role="button" aria-label="View design asset: Graphic details outlining brand assets and custom typography guidelines" data-media-type="image" data-media-src="/portfolio/project%202/extra.png">
+              <img src="/portfolio/project%202/extra.png" alt="Graphic details outlining brand assets and custom typography guidelines" loading="lazy">
+            </div>
+          </div>
+
+          <!-- quote row -->
+          <div class="gallery-quote-container">
+            <p class="gallery-quote">Crafting distinct identity through typography & layouts.</p>
+          </div>
+
+          <!-- full row -->
+          <div class="gallery-row-full">
+            <div class="gallery-item" tabindex="0" role="button" aria-label="View design asset: Abhibhav Editz magazine cover design featuring the editing crew and cameras" data-media-type="image" data-media-src="/portfolio/project%202/studio.png">
+              <img src="/portfolio/project%202/studio.png" alt="Abhibhav Editz magazine cover design featuring the editing crew and cameras" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
