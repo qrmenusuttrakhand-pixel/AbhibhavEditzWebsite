@@ -337,32 +337,43 @@ header.scrolled {
 }
 
 .hero-visual-block {
-  grid-column: 5 / 13;
-  grid-row: 1;
-  position: relative;
-  width: 100%;
-  opacity: 0;
-  transform: scale(0.98) translateX(20px);
+  display: none !important;
+}
+
+.desktop-hero-video-bg {
+  display: block;
+  position: absolute;
+  right: -3%; /* Bleeds slightly off the right edge of the screen */
+  top: 0;
+  width: 55%; /* Spans the entire right half of the hero */
+  height: 100%;
+  z-index: 1; /* Sits behind grid content */
+  overflow: hidden;
   animation: fadeInRight 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.collage-wrapper {
+.desktop-hero-video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  position: relative;
-  mix-blend-mode: multiply; /* Blends collage texture directly into the linen backdrop */
-  mask-image: radial-gradient(circle at 48% 50%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 75%);
-  -webkit-mask-image: radial-gradient(circle at 48% 50%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 75%);
-  opacity: 0.95;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to right, 
+    rgba(250, 247, 242, 1) 0%, 
+    rgba(250, 247, 242, 0.95) 15%, 
+    rgba(250, 247, 242, 0.4) 30%, 
+    rgba(250, 247, 242, 0) 45%
+  );
+  pointer-events: none;
 }
 
-.collage-img {
+.desktop-hero-video-el {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   display: block;
+  filter: brightness(0.6) contrast(0.9) saturate(0.8) blur(2.5px); /* Dimmed atmospheric texture */
 }
 
 /* Keyframes for visual entrance animation */
@@ -443,6 +454,31 @@ header.scrolled {
 }
 
 .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio-category-row {
+  display: contents;
+}
+
+.category-row-title {
+  display: none;
+}
+
+.mobile-only-design-showcase {
+  display: none;
+}
+
+.mobile-hero-video-bg {
+  display: none;
+}
+
+.reels-carousel-container,
+.cinematic-carousel-container,
+.design-carousel-container {
+  grid-column: span 12;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 2.5rem;
@@ -1187,43 +1223,152 @@ footer {
 }
 
 @media (max-width: 768px) {
+  /* Spacing & Section Defaults */
+  .section {
+    padding: 3.5rem 0;
+  }
+
+  .contact-section {
+    padding: 3.5rem 0;
+  }
+
+  .section-title, .subtitle {
+    text-align: center;
+  }
+
+  .section-title {
+    margin-bottom: 2rem;
+  }
+
+  /* Hero Section */
   .hero {
     padding: 100px 0 60px 0;
+    position: relative;
+    overflow: hidden; /* Prevent horizontal scrolling & clip scaled video */
+  }
+
+  /* Mobile Cinematic Video Background */
+  .mobile-hero-video-bg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .desktop-hero-video-bg {
+    display: none !important;
+  }
+
+  .mobile-hero-video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: linear-gradient(to right, 
+      rgba(21, 20, 19, 0.95) 0%, 
+      rgba(21, 20, 19, 0.95) 60%, 
+      rgba(21, 20, 19, 0.55) 100%
+    );
+  }
+
+  @keyframes cinematicZoom {
+    0% {
+      transform: scale(1.0);
+    }
+    50% {
+      transform: scale(1.08);
+    }
+    100% {
+      transform: scale(1.0);
+    }
+  }
+
+  .mobile-hero-video-el {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 70% center; /* Focus on person/CREATE text on the right */
+    filter: brightness(0.45) contrast(0.85) blur(2.5px); /* Reduce distraction and competition */
+    animation: cinematicZoom 16s ease-in-out infinite;
+    display: block;
   }
 
   .hero-grid {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    z-index: 10;
   }
 
   .hero-text-block {
-    width: 100%;
-    grid-column: auto;
-    text-align: center;
-    align-items: center;
+    grid-column: 1 / 13; /* Span full width since visual block is in the background */
+    grid-row: 1;
+    z-index: 10;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 5.5vw, 3rem);
+    line-height: 1.05;
+    margin-top: 0.5rem;
+    margin-bottom: 1.75rem;
+    color: #ffffff; /* Keep heading bright white */
   }
 
   .hero-description {
-    max-width: 100%;
+    max-width: 90%; /* Ensure text is clean and matches the spacing */
+    margin-bottom: 2.25rem;
+    font-size: 0.95rem;
+    color: #b5b4b0; /* Soft light gray for comfortable reading */
   }
 
   .hero-cta {
-    justify-content: center;
-    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
     width: 100%;
+    gap: 0.75rem;
+  }
+
+  .hero-cta .btn {
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
   }
 
   .hero-meta-footer {
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
   }
 
+  /* Hide static visual block on mobile */
   .hero-visual-block {
-    width: 100%;
-    grid-column: auto;
+    display: none !important;
   }
 
+  @media (max-width: 480px) {
+    .hero-text-block {
+      grid-column: 1 / 13;
+    }
+    .hero-title {
+      font-size: clamp(1.6rem, 7vw, 2.2rem);
+    }
+  }
+
+  /* Navigation */
   .nav-links {
     display: none;
     position: absolute;
@@ -1261,33 +1406,329 @@ footer {
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
-  .portfolio-item {
-    grid-column: span 12;
+  /* Portfolio Section */
+  .portfolio-filter {
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
   }
 
-  .portfolio-item.third {
-    grid-column: span 12;
+  /* Stacked by default on mobile */
+  .portfolio-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 
+  .portfolio-category-row {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .portfolio-category-row:last-child {
+    margin-bottom: 0;
+  }
+
+  .category-row-title {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    padding-left: 0.25rem;
+  }
+
+  /* Carousel rows on mobile */
+  .reels-carousel-container,
+  .cinematic-carousel-container,
+  .design-carousel-container {
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 1.25rem;
+    margin: 0 -2rem;
+    padding: 0 2rem 1.25rem 2rem;
+    scrollbar-width: none;
+  }
+
+  .reels-carousel-container::-webkit-scrollbar,
+  .cinematic-carousel-container::-webkit-scrollbar,
+  .design-carousel-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .reels-carousel-container .portfolio-item,
+  .cinematic-carousel-container .portfolio-item,
+  .design-carousel-container .portfolio-item {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+    margin-bottom: 0;
+    grid-column: auto;
+    height: auto !important;
+    align-self: flex-start;
+  }
+
+  /* Mobile-Only Visual Direction Showcase */
+  #cat-design {
+    display: none !important;
+  }
+
+  .mobile-only-design-showcase {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-showcase-hero {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    position: relative;
+    border: 1px solid var(--border-light);
+    cursor: pointer;
+  }
+
+  .mobile-showcase-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .mobile-showcase-intro {
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .showcase-tagline {
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .mobile-showcase-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .gallery-row-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .gallery-item {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    background-color: var(--bg-secondary);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: var(--transition-smooth);
+  }
+
+  .gallery-row-split .gallery-item {
+    aspect-ratio: 1/1;
+  }
+
+  .gallery-row-full {
+    width: 100%;
+  }
+
+  .gallery-row-full .gallery-item {
+    aspect-ratio: 16/9;
+  }
+
+  .gallery-quote-container {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .gallery-quote {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    max-width: 90%;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .media-wrapper.vertical {
+    aspect-ratio: 4/5;
+    max-height: 420px;
+  }
+
+  .item-info {
+    padding: 1.25rem;
+  }
+
+  .item-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .item-description {
+    font-size: 0.85rem;
+  }
+
+  /* Philosophy Section */
   .philosophy-grid {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 2.5rem;
   }
 
   .philosophy-text, .philosophy-pillars {
     grid-column: span 1;
   }
 
+  /* Services Section */
   .services-list-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 1.25rem;
+    margin: 0 -2rem;
+    padding: 0 2rem 1.25rem 2rem;
+    scrollbar-width: none;
   }
 
-  .pricing-grid {
+  .services-list-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .service-card {
+    flex: 0 0 80%;
+    scroll-snap-align: center;
+    padding: 2rem 1.5rem;
+  }
+
+  /* Workflow Timeline */
+  .workflow-timeline {
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 1.25rem;
+    margin: 0 -2rem;
+    padding: 0 2rem 1.25rem 2rem;
+    scrollbar-width: none;
+    margin-top: 2.5rem;
+  }
+
+  .workflow-timeline::-webkit-scrollbar {
+    display: none;
+  }
+
+  .workflow-timeline::before {
+    display: none;
+  }
+
+  .timeline-step {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0;
+    height: auto !important;
+  }
+
+  .step-number {
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+  }
+
+  .step-content {
+    padding: 1.25rem;
+    width: 100%;
+    height: auto !important;
+  }
+
+  .step-details-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* Pricing Section */
+  .pricing-grid {
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 1.25rem;
+    margin: 0 -2rem;
+    padding: 0 2rem 1.25rem 2rem;
+    scrollbar-width: none;
+  }
+
+  .pricing-grid::-webkit-scrollbar {
+    display: none;
   }
 
   .pricing-grid > *:last-child {
-    grid-column: span 1;
+    grid-column: auto;
+  }
+
+  .pricing-card {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+    padding: 2.25rem 1.5rem;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .pricing-desc {
+    margin-bottom: 1rem;
+    min-height: auto;
+  }
+
+  .pricing-price {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .pricing-features {
+    margin-bottom: 1.5rem;
+  }
+
+  .pricing-features li {
+    margin-bottom: 0.75rem;
+  }
+
+  /* Contact Section & Form */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
 
   .form-row {
@@ -1296,9 +1737,10 @@ footer {
   }
 
   .contact-form-container {
-    padding: 2rem;
+    padding: 2rem 1.5rem;
   }
 
+  /* Footer */
   .footer-container {
     flex-direction: column;
     gap: 1.5rem;
