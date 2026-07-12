@@ -337,7 +337,32 @@ header.scrolled {
 }
 
 .hero-visual-block {
-  display: none !important;
+  grid-column: 5 / 13;
+  grid-row: 1;
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  transform: scale(0.98) translateX(20px);
+  animation: fadeInRight 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collage-wrapper {
+  width: 100%;
+  position: relative;
+  mix-blend-mode: multiply; /* Blends collage texture directly into the linen backdrop */
+  mask-image: radial-gradient(circle at 48% 50%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 75%);
+  -webkit-mask-image: radial-gradient(circle at 48% 50%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 75%);
+  opacity: 0.95;
+}
+
+.collage-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .desktop-hero-video-bg {
@@ -1354,9 +1379,9 @@ footer {
     flex-wrap: wrap;
   }
 
-  /* Hide static visual block on mobile */
   .hero-visual-block {
-    display: none !important;
+    width: 100%;
+    grid-column: auto;
   }
 
   @media (max-width: 480px) {
